@@ -1,0 +1,101 @@
+package id3j64ihyu950gahyui20cl;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#sampler.Sampler:oiref><oihard>
+@__modelType reference 
+*/
+class reference8 {
+}/**
+@__ref <oiref:java#Class#sampler.Note:oiref><oihard>
+@__modelType reference 
+*/
+class reference10 {
+}/**
+@__ref <oiref:java#Class#sampler.Sample:oiref><oihard>
+@__modelType reference 
+*/
+class reference13 {
+}/**
+@__ref <oiref:java#Class#sampler.Program:oiref><oihard>
+@__modelType reference 
+*/
+class reference14 {
+}/**
+@__ref <oiref:java#Class#sampler.Pad:oiref><oihard>
+@__modelType reference 
+*/
+class reference18 {
+}/**
+@__ref <oiref:java#Class#sampler.SoundAttributeHandler:oiref><oihard>
+@__modelType reference 
+*/
+class reference19 {
+}/**
+@__ref <oiref:java#Class#sampler.SoundProcessor:oiref><oihard>
+@__modelType reference 
+*/
+class reference20 {
+}/**
+@__ref <oiref:java#Class#sampler.Slider:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#mixer.Mixer:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference11 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions 
+
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#sampler.Sampler#slider:oiref>=530,1295,15,16,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sampler.SoundProcessor#soundAttributeHandler:oiref>=1163,292,552,221,552,170:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sampler.SoundProcessor#audioOut:oiref>=274,154,274,292:oigroup>
+<oigroup:<oiref:java#Class#sampler.Program:oiref>=185,292,239,188,0:oigroup>
+<oigroup:<oiref:java#Class#sampler.SoundAttributeHandler:oiref>=389,10,222,160,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sampler.Sampler#program:oiref>=695,1230,304,1142,304,480:oigroup>
+<oigroup:<oiref:java#Class#sampler.SoundProcessor:oiref>=1066,292,194,220,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sampler.SoundAttributeHandler#_note:oiref>=515,170,515,292:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#sampler.SoundProcessor#mixer:oiref>=1163,1210,28,16,0:oigroup>
+<oigroup:<oiref:java#Class#sampler.Note:oiref>=444,292,276,868,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sampler.SoundProcessor#mixer:oiref>=1195,512,1195,1230:oigroup>
+<oigroup:<oiref:java#Class#sampler.Sample:oiref>=740,292,220,440,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#sampler.Sampler#soundProcessor:oiref>=1082,512,35,16,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#sampler.SoundProcessor#sample:oiref>=964,382,28,16,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sampler.Sampler#slider:oiref>=619,1315,526,1315:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sampler.SoundAttributeHandler#successor:oiref>=579,170,579,212,653,212,653,138,611,138:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sampler.Sampler#soundProcessor:oiref>=772,1230,1130,512:oigroup>
+<oigroup:<oiref:java#Member#sampler.Note#sampleNumber:oiref>=370,260,314,16,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sampler.SoundProcessor#sound:oiref>=310,412,228,412:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sampler.SoundAttributeHandler#_pad:oiref>=420,170,36,292:oigroup>
+<oigroup:<oiref:java#Extends#sampler.Pad#sampler.SoundAttributeHandler:oiref>=155,292,155,282,451,170:oigroup>
+<oigroup:<oiref:java#Class#sampler.Slider:oiref>=339,1230,187,480,0:oigroup>
+<oigroup:<oiref:java#Extends#sampler.Note#sampler.SoundAttributeHandler:oiref>=483,292,483,170:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#sampler.SoundAttributeHandler#_note:oiref>=519,272,110,16,0:oigroup>
+<oigroup:<oiref:java#Class#mixer.Mixer:oiref>=1041,1230,243,350,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#sampler.Sampler#program:oiref>=272,480,28,16,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#sampler.SoundAttributeHandler#_pad:oiref>=102,272,110,16,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#sampler.SoundProcessor#soundAttributeHandler:oiref>=520,170,28,16,0:oigroup>
+<oigroup:<oiref:java#Class#sampler.Pad:oiref>=10,292,155,124,0:oigroup>
+<oigroup:<oiref:java#Class#sampler.Sampler:oiref>=619,1230,230,170,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sampler.SoundProcessor#sample:oiref>=1066,402,960,402:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#mpc.Mpc#sampler:oiref>=1060,514,1060,1230:oigroup>
+*/
+class __positions {
+}

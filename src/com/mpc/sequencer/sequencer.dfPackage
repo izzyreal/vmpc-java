@@ -1,0 +1,163 @@
+package idwiyyhysucoarhysuzads;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#sequencer.Sequencer:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#sequencer.Sequence:oiref><oihard>
+@__modelType reference 
+*/
+class reference7 {
+}/**
+@__ref <oiref:java#Class#sequencer.Track:oiref><oihard>
+@__modelType reference 
+*/
+class reference12 {
+}/**
+@__ref <oiref:java#Class#sequencer.Song:oiref><oihard>
+@__modelType reference 
+*/
+class reference15 {
+}/**
+@__ref <oiref:java#Class#sequencer.Event:oiref><oihard>
+@__modelType reference 
+*/
+class reference16 {
+}/**
+@__ref <oiref:java#Class#sequencer.Transport:oiref><oihard>
+@__modelType reference 
+*/
+class reference17 {
+}/**
+@__ref <oiref:java#Class#sequencer.Step:oiref><oihard>
+@__modelType reference 
+*/
+class reference3 {
+}/**
+@__ref <oiref:java#Class#sequencer.NoteEvent:oiref><oihard>
+@__modelType reference 
+*/
+class reference5 {
+}/**
+@__ref <oiref:java#Class#sequencer.PitchBendEvent:oiref><oihard>
+@__modelType reference 
+*/
+class reference6 {
+}/**
+@__ref <oiref:java#Class#sequencer.ControlChangeEvent:oiref><oihard>
+@__modelType reference 
+*/
+class reference8 {
+}/**
+@__ref <oiref:java#Class#sequencer.ProgramChangeEvent:oiref><oihard>
+@__modelType reference 
+*/
+class reference9 {
+}/**
+@__ref <oiref:java#Class#sequencer.ChannelPressureEvent:oiref><oihard>
+@__modelType reference 
+*/
+class reference10 {
+}/**
+@__ref <oiref:java#Class#sequencer.PolyPressureEvent:oiref><oihard>
+@__modelType reference 
+*/
+class reference13 {
+}/**
+@__ref <oiref:java#Class#sequencer.SystemExclusiveEvent:oiref><oihard>
+@__modelType reference 
+*/
+class reference14 {
+}/**
+@__ref <oiref:java#Class#sequencer.MixerEvent:oiref><oihard>
+@__modelType reference 
+*/
+class reference18 {
+}/**
+@__ref <oiref:java#Class#sequencer.DurationEvent:oiref><oihard>
+@__modelType reference 
+*/
+class reference19 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions 
+<oigroup:<oiref:java#Class#sequencer.Sequence:oiref>=410,10,170,350,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#mpc.Mpc#sequencer:oiref>=110,1040,438,950:oigroup>
+<oigroup:<oiref:java#Class#sequencer.Track:oiref>=409,430,173,250,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#mpc.Mpc#sampler:oiref>=190,1262,190,1450:oigroup>
+<oigroup:<oiref:java#Class#sequencer.DurationEvent:oiref>=1422,750,140,120,0:oigroup>
+<oigroup:<oiref:java#Member#sequencer.Sequencer#defaultSequenceName:oiref>=70,80,315,16,1:oigroup>
+<oigroup:<oiref:java#Class#sequencer.SystemExclusiveEvent:oiref>=1216,750,186,130,0:oigroup>
+<oigroup:<oiref:java#Member#sequencer.Sequencer#countEnabled:oiref>=70,230,315,16,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#sequencer.Song#steps:oiref>=1542,65,26,16,0:oigroup>
+<oigroup:<oiref:java#Class#sequencer.ControlChangeEvent:oiref>=620,750,170,130,0:oigroup>
+<oigroup:<oiref:java#Class#sequencer.MixerEvent:oiref>=1020,750,176,150,0:oigroup>
+<oigroup:<oiref:java#Member#sequencer.Sequencer#defaultSongName:oiref>=100,70,315,16,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sequencer.Sequencer#transport:oiref>=1582,315,1489,315:oigroup>
+<oigroup:<oiref:java#Extends#sequencer.MixerEvent#sequencer.Event:oiref>=1108,750,838,600:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#sequencer.Sequence#track:oiref>=456,410,35,16,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sequencer.SequencerObserver#sequencerGrabber:oiref>=1949,377,1949,437:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sequencer.Sequence#track:oiref>=495,360,495,430:oigroup>
+<oigroup:<oiref:java#Extends#sequencer.NoteEvent#sequencer.DurationEvent:oiref>=1492,950,1492,870:oigroup>
+<oigroup:<oiref:java#Extends#sequencer.ProgramChangeEvent#sequencer.Event:oiref>=510,750,785,692,785,600:oigroup>
+<oigroup:<oiref:java#Member#sequencer.Sequence#tempo:oiref>=480,170,421,16,1:oigroup>
+<oigroup:<oiref:java#Class#sequencer.ProgramChangeEvent:oiref>=420,750,180,120,0:oigroup>
+<oigroup:<oiref:java#Class#sequencer.Transport:oiref>=1359,250,130,130,0:oigroup>
+<oigroup:<oiref:java#Extends#sequencer.PolyPressureEvent#sequencer.Event:oiref>=824,750,824,600:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sequencer.Sequencer#sequences:oiref>=130,290,130,370:oigroup>
+<oigroup:<oiref:java#Class#sequencer.NoteEvent:oiref>=1400,950,184,170,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sequencer.Track#event:oiref>=984,1250,565,1300:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sequencer.Track#clipboardEvent:oiref>=582,486,728,486:oigroup>
+<oigroup:<oiref:java#Member#sequencer.Sequence#trackNames:oiref>=650,1074,148,16,1:oigroup>
+<oigroup:<oiref:java#Implements#sequencer.Sequencer#sequencer.Subject:oiref>=1830,503,1886,503:oigroup>
+<oigroup:<oiref:java#Member#sequencer.Sequencer#selectedTrack:oiref>=70,220,315,16,1:oigroup>
+<oigroup:<oiref:java#Class#sequencer.Sequencer:oiref>=1582,250,248,480,0:oigroup>
+<oigroup:<oiref:java#Extends#sequencer.ChannelPressureEvent#sequencer.Event:oiref>=105,750,747,672,747,600:oigroup>
+<oigroup:<oiref:java#Class#sequencer.PolyPressureEvent:oiref>=810,750,190,140,0:oigroup>
+<oigroup:<oiref:java#Extends#sequencer.NoteEvent#sequencer.Event:oiref>=1455,490,1562,200:oigroup>
+<oigroup:<oiref:java#Extends#sequencer.DurationEvent#sequencer.Event:oiref>=1492,750,868,600:oigroup>
+<oigroup:<oiref:java#Implements#sequencer.SequencerObserver#sequencer.Observer:oiref>=1948,171,1948,111:oigroup>
+<oigroup:<oiref:java#Class#sequencer.Step:oiref>=1392,10,146,150,0:oigroup>
+<oigroup:<oiref:java#Member#sequencer.Sequencer#sequenceNameList:oiref>=70,140,315,16,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sequencer.Sequencer#nextSequence:oiref>=525,560,702,650:oigroup>
+<oigroup:<oiref:java#Class#sequencer.PitchBendEvent:oiref>=220,750,180,120,0:oigroup>
+<oigroup:<oiref:java#Class#sequencer.ChannelPressureEvent:oiref>=10,750,190,120,0:oigroup>
+<oigroup:<oiref:java#Extends#sequencer.SystemExclusiveEvent#sequencer.Event:oiref>=1309,750,853,600:oigroup>
+<oigroup:<oiref:java#Member#sequencer.Sequence#name:oiref>=490,120,421,16,1:oigroup>
+<oigroup:<oiref:java#Class#sequencer.Song:oiref>=1642,10,127,160,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sequencer.Song#steps:oiref>=1642,85,1538,85:oigroup>
+<oigroup:<oiref:java#Member#sequencer.Sequencer#timingCorrectValue:oiref>=70,140,315,16,1:oigroup>
+<oigroup:<oiref:java#Member#sequencer.Sequencer#defaultDeviceNameList:oiref>=70,90,315,16,1:oigroup>
+<oigroup:<oiref:java#Extends#sequencer.ControlChangeEvent#sequencer.Event:oiref>=705,750,804,699,804,600:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sequencer.Track#events:oiref>=582,543,728,543:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#sequencer.Sequencer#song:oiref>=1673,170,28,16,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sequencer.Sequencer#song:oiref>=1705,250,1705,170:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sequencer.Sequencer#secondSequence:oiref>=534,910,736,990:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#sequencer.Track#events:oiref>=696,523,28,16,0:oigroup>
+<oigroup:<oiref:java#Extends#sequencer.PitchBendEvent#sequencer.Event:oiref>=310,750,766,682,766,600:oigroup>
+<oigroup:<oiref:java#Class#sequencer.Event:oiref>=728,430,155,170,0:oigroup>
+<oigroup:<oiref:java#Member#sequencer.Sequence#deviceNames:oiref>=470,120,421,16,1:oigroup>
+<oigroup:<oiref:java#Implements#sequencer.SequencerGrabber#sequencer.Subject:oiref>=1949,630,1949,570:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#sequencer.Sequencer#transport:oiref>=1493,295,15,16,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#sequencer.Track#eventClipboard:oiref>=582,553,728,553:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#sequencer.Track#clipboardEvent:oiref>=696,466,28,16,0:oigroup>
+
+*/
+class __positions {
+}
